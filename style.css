@@ -75,7 +75,47 @@ body {
 
 .btn-dark-blue:hover {
   background-color: #3b4a99;
+  color: white;
 }
+
+.change-btn-dark-blue {
+  background-color: #1e2d5e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.change-btn-dark-blue:hover {
+  background-color: #3b4a99;
+  color: white;
+}
+
+
+.footer-btn-dark-blue {
+  background-color: #1e2d5e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: 0.3s ease;
+  height: 30px;
+  width: 30px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.footer-btn-dark-blue:hover {
+  background-color: #3b4a99;
+  color: white;
+}
+
+
 
 /* Navbar links */
 .nav-link {
@@ -1704,3 +1744,17 @@ body {
   font-size: 14px;
   transition: 0.3s ease;
 }
+
+.pos-fixed {
+  position: fixed;
+  bottom: 15px;
+  right: 8px;
+  z-index: 999;
+}
+
+.rectangle {
+  background-color: red;
+}
+/* .rectangle p{
+
+} */
